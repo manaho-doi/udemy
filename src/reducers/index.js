@@ -1,4 +1,4 @@
-import { combineResucers } from 'redux';
-import count from './count';
+import { combineReducers } from 'redux';
+import count from './const';
 
-export default combineResucers({ count });
+export default combineReducers({ count });
